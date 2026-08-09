@@ -1,0 +1,4 @@
+interface:
+  display_name: "subagent-delegation"
+  short_description: "위임 계약 기반 서브에이전트 오케스트레이터"
+  default_prompt: "Use $subagent-delegation to split this task into scoped subagents and cross-review the result with a different vendor's model."

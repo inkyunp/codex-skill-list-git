@@ -1,0 +1,43 @@
+# Python and Node build/cache outputs
+__pycache__/
+*.py[cod]
+node_modules/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
+
+# Local configuration and credentials (never commit)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*credential*
+*secret*
+*token*
+*auth*.json
+*cookie*
+*session*
+
+# Codex/plugin runtime state and package caches
+.codex/
+plugins/cache/
+cache/
+logs/
+tmp/
+
+# Kept only in the local source snapshot; never publish
+skills/10x-web-summary-download/
+skills/lims-order-note/

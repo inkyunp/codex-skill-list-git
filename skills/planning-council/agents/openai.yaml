@@ -1,0 +1,4 @@
+interface:
+  display_name: "Planning Council"
+  short_description: "멀티모델 기획 생성·익명 심사·통합 오케스트레이터"
+  default_prompt: "Use $planning-council to explore several directions for this problem and pick the strongest one."
